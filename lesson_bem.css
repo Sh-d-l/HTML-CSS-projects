@@ -1,0 +1,95 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+body {
+  font-family: Lato;
+}
+.wrapper {
+  padding: 0 15px;
+  min-height: 100%;
+}
+.block-top {  
+}
+.block-top__content {
+  max-width: 823px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.block-top__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.block-top__text {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.block-top__text-bold {
+  font-size: 34px;
+  letter-spacing: 5px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 900;   
+}
+.block-top__text-small {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+.block-top__line {
+  width: 100px;
+  height: 0px;
+  border-bottom: solid black;
+  margin: 0 auto;
+}
+.block-top__footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;  
+}
+.block-top__botton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 160px;
+  height: 40px;
+  border: solid black;
+}
+.block-top__wrapper-link {
+
+}
+.block-top__link {  
+  font-size: 16px;
+  letter-spacing: 1px;
+  color:black;
+  font-weight: 400;  
+  text-transform: uppercase;
+}
+.block-top__arrow {
+  margin: 0 auto;  
+}
